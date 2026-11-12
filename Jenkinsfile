@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'A real Maven build will go here later'
+                echo 'Build triggered automatically by Git push!'
             }
         }
     }
