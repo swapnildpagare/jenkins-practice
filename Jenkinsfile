@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Build triggered automatically by Git push!'
+                echo 'Second auto trigger test!'
             }
         }
     }
